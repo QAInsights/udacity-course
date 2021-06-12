@@ -1,0 +1,8 @@
+DEBUG:root:2021-06-11 21:50:39.088507 / endpoint was reached
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2021 21:50:39] "GET / HTTP/1.1" 200 -
+DEBUG:root:2021-06-11 21:51:26.965719 / endpoint was reached
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2021 21:51:26] "GET / HTTP/1.1" 200 -
+DEBUG:root:2021-06-11 21:51:34.071599 /status endpoint was reached
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2021 21:51:34] "GET /status HTTP/1.1" 200 -
+DEBUG:root:2021-06-11 21:51:38.572952 /metrics endpoint was reached
+INFO:werkzeug:127.0.0.1 - - [11/Jun/2021 21:51:38] "GET /metrics HTTP/1.1" 200 -
