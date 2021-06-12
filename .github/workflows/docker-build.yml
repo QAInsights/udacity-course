@@ -21,6 +21,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
+        context: .
         file: python-helloworld/Dockerfile
         tags: qainsights/python-helloworld:latest
         platforms: linux/arm64
