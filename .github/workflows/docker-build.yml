@@ -20,6 +20,7 @@ jobs:
         pip install -r requirements.txt
     - name: Build Image
       run: |
+        cd exercises/python-helloworld
         docker build -t python-helloworld .
         docker tag python-helloworld qainsights/python-helloworld:latest
 
