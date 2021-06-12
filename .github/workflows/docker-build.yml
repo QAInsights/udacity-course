@@ -22,6 +22,6 @@ jobs:
       with:
         push: true
         context: .
-        file: ./Dockerfile
+        file: ./python-helloworld/Dockerfile
         tags: qainsights/python-helloworld:latest
         platforms: linux/arm64
