@@ -1,7 +1,8 @@
 apiVersion: v1
 data:
-  version: alpine
+  {{ .Values.configmap.data }}
+  #version: alpine
 kind: ConfigMap
 metadata:
   name: nginx-version
-  namespace: demo
+  namespace: {{ .Values.namespace.name }}

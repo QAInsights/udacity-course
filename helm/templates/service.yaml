@@ -5,13 +5,13 @@ metadata:
     app: nginx
     tag: alpine
   name: nginx-alpine
-  namespace: demo
+  namespace: {{ .Values.namespace.name }}
 spec:
   ports:
-  - port: 8111
+  - port: {{ .Values.service.port }}
     protocol: TCP
-    targetPort: 8111
+    targetPort: {{ .Values.service.port }}
   selector:
     app: nginx
     tag: alpine
-  type: ClusterIP
+  type: {{ .Values.service.type }}
